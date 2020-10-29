@@ -1,0 +1,256 @@
+@font-face {
+    font-family: Calibri;
+}
+@font-face {
+    font-family: "S FU IDisplay";
+}
+
+body {
+    width: 1435px;
+    min-width: 100%;
+}
+
+.navbar-default{
+    background: #fff;
+}
+.navbar-nav{
+    font-size: 18px;
+    line-height: 29px;
+    color: #616161;
+    font-family: "Calibri";
+    text-align: center;
+    margin-top: 10px;
+}
+#logo{
+    width: 125px;
+    height: 50px;
+    margin-top: 10px;
+}
+.numb_p{
+    font-size: 18px;
+    line-height: 29px;
+    color: #141419;
+    font-weight: bold;
+    font-family: "Calibri";
+    text-align: center;
+    padding-left: 117px;
+    margin-top: 10px;
+}
+.main_h2{
+    font-size: 50px;
+    line-height: 72px;
+    color: #141419;
+    font-weight: bold;
+    font-family: "Calibri";
+}
+.main_p{
+    font-size: 24px;
+    line-height: 36px;
+    color: #616161;
+    font-family: "Calibri";
+}
+.orange_text{
+    color: orange;
+}
+
+/* Далее, код для формы отправки номера телефона */
+.sendPhoneNumber {
+    width: 390px; /* Ширина поля с кнопкой */
+    min-height: 57px; /* Минимальная высота */
+    position: relative;
+    border: #fb973b solid 1px;
+}
+
+/* Собственно поле ввода номера телефона (для полей ввода номеров, используется тип - 'tel') */
+input[type="tel"]{
+    border: none; /* убираем рамку */
+    outline: none; /* убираем подсветку поля */
+    position: absolute; /* задаем абсолютное позиционирование - не даст выйти за границы родителя */
+    top: 0; /* прижимаем к верхней границе родителя */
+    bottom: 0; /* прижимаем к нижней границе родителя */
+    left: 0; /* прижимаем к левой границе родителя */
+    font-size: 18px; /* чуть больше шрифт, а то не оч... */
+    width: 195px;
+    line-height: 31px;
+    color: #141419;
+    font-weight: bold;
+    font-family: "S FU IDisplay";
+    text-align: center;
+}
+
+/* Непосредственно кнопка отправки результата ввода в форме */
+input[type="submit"]{
+    border: none; /* убираем рамку */
+    position: absolute; /* задаем абсолютное позиционирование - не даст выйти за границы родителя */
+    top: 0; /* прижимаем к верхней границе родителя */
+    bottom: 0; /* прижимаем к нижней границе родителя */
+    right: 0; /* прижимаем к правой границе родителя */
+    width: 195px;
+    font-size: 18px;
+    line-height: 31px;
+    color: #ffffff;
+    background-color: #fb973b;
+    font-weight: 500;
+    font-family: "S FU IDisplay";
+}
+
+/* Строка первая - заголовок, форма и корова */
+.firstRow {
+    position: relative;
+    z-index: 0;
+}
+
+/* Блок с изображением коровы */
+.img_cow,
+.bgc_img_cow{
+    position: absolute;
+    z-index: -1;
+    max-height: 100%; /* на всю доступную высоту родителя */
+    top: 0; /* прижимаем к верхней границе родителя */
+    bottom: 0; /* прижимаем к нижней границе родителя */
+    right: 0; /* прижимаем к правой границе родителя */
+}
+.inform{
+    margin-top: 150px;
+}
+.inform_h2{
+    font-size: 50px;
+    line-height: 72px;
+    color: #141419;
+    font-weight: bold;
+    font-family: "Calibri";
+    text-align: center;
+}
+.inform_p{
+    font-size: 24px;
+    line-height: 36px;
+    color: #616161;
+    font-family: "Calibri";
+    text-align: center;
+}
+.orange_text_2{
+    color: orange;
+}
+/*
+.secondRow{
+    position: relative;
+    z-index: 0;
+}
+*/
+
+.bgc-img_lamp {
+    width: 297px;
+    height: 348px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 48px;
+
+}
+.text_inform{
+    float: right;
+
+}
+.text_inform_p{
+    width: 397px;
+    height: 69px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #141419;
+    font-family: "Calibri";
+    text-align: center;
+    margin-left: -175px;
+}
+.text_p2{
+    width: 397px;
+    height: 44px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #141419;
+    font-family: "Calibri";
+    text-align: center;
+    margin-left: -175px;
+}
+.text_p3{
+    width: 397px;
+    height: 94px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #141419;
+    font-family: "Calibri";
+    text-align: center;
+    margin-left: -175px;
+}
+.img_item{
+    margin-top: 48px;
+}
+.img_item2{
+    margin-top: -7px;
+}
+.img_item3{
+    margin-top: -7px;
+}
+
+.text_inform {
+    margin-right: 15%;
+}
+.partners_h2{
+    font-size: 50px;
+    line-height: 72px;
+    color: #141419;
+    font-weight: bold;
+    font-family: "Calibri";
+}
+.partners_p{
+    font-size: 24px;
+    line-height: 36px;
+    color: #616161;
+    font-family: "Calibri";
+}
+.orange_text3{
+    color: orange;
+}
+
+
+.block_part{
+
+    width: 683px;
+    height: 387px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 18px;
+    list-style: none;
+    background-color: #fff;
+    margin-left: 400px;
+    margin-top: -300px;
+}
+.partners_item{
+    background: white;
+    padding: 5px;
+    width: 265px;
+    height: 80px;
+    margin-top: -20px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: -webkit-center;
+    margin-bottom: 92px;
+}
+.partners_item_6{
+    background: white;
+    padding: 5px;
+    width: 265px;
+    height: 80px;
+    margin-top: -30px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: -webkit-center;
+    margin-bottom: 92px;
+    margin-left: 15px;
+}
+.img_down{
+    width: 100%;
+}

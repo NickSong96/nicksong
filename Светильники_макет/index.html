@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ЭЛИПСЛЕД</title>
+    <link rel="stylesheet" href="Bootstrap/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Подключение библиотеки - jQuery -->
+    <script rel="script" src="Bootstrap/js/jquery-1.11.1.min.js"></script>
+    <!-- Подключение jQuery плагина Masked Input (используется для маски ввода номера) -->
+    <script rel="script" src="js/jQueryMaskedInput/jquery.maskedinput.min.js"></script>
+    <style>
+        .container{
+            background-image: url("img/Backgroud_dots.png");
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+        <nav class="nav navbar-default" role="navigation">
+            <div class="container-fluid head_er">
+                <div class="navbar-header">
+                    <a href="#">
+                        <img src="img/Логотип.png" alt="" id="logo">
+                    </a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="navbar_lists"><a href="#">Главная</a></li>
+                    <li><a href="#">Нам доверяют</a></li>
+                    <li><a href="#">Фотографии</a></li>
+                    <li><a href="#">Сертификаты</a></li>
+                    <li><a href="#">Где нас найти?</a></li>
+                    <li><p class="numb_p">89152543992</p></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="main">
+            <div class="row firstRow">
+                <div class="img_cow">
+                    <img src="img/%231%20(2).png" alt="" class="bgc_img_cow">
+                </div>
+
+                <h2 class="main_h2">У нас вы найдете лучшие <br> светодиодные лампы <br>для животоводства</h2>
+
+                <p class="main_p">Оставьте нам свой номер,<br>
+                    и получите <span class="orange_text">бесплатный</span> рассчет <br>
+                    специально для вас!</p>
+
+                <!-- Форма для отправки номера телефона -->
+                <div class="sendPhoneNumber">
+                    <form action="#" name="formSendPhoneNumber" method="post">
+                        <fieldset class="inputFieldPhoneNumber">
+                            <input id="inputPhoneNumber" type="tel" name="phoneNumber" placeholder="+7(xxx) xxx-xx-xx">
+                            <input type="submit" value="Отправить">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="row secondRow">
+
+                <h2 class="inform_h2">Расскажем вам немного о себе</h2>
+
+                <p class="inform_p">Мы ценим ваше время, по этому мы постараемся <br>рассказать о <span class="orange_text_2">главном вкратце!</span></p>
+
+                <div class="allTopic">
+
+                    <div class="lamp">
+                        <img src="img/Лампочка%20(1).png" alt="" class="bgc-img_lamp">
+                    </div>
+
+                    <div class="text_inform">
+
+                        <img src="img/указатели.png" alt="" class="img_item">
+                        <p class="text_inform_p">Наша компания была основана в 2015 году, <br>название ей «ЭлипсЛед». Занимаемся мы <br> производством светильников для животноводства</p>
+
+                        <img src="img/Указатель-2.png" alt="" class="img_item2">
+                        <p class="text_p2">Работаем мы исключительно на собственном <br>оборудовании и только с качественным сырьем.</p>
+
+                        <img src="img/Указатель-3.png" alt="" class="img_item3">
+                        <p class="text_p3">С помощью команды наших специалистов <br>мы смогли добиться одного из самых высоких <br>уровней качества светодиодных светильников <br>для свиноводства, КРС, выращивания грибов!</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row partners_block">
+
+
+                <h2 class="partners_h2">Наши партнеры <br>по бизнесу</h2>
+                <p class="partners_p">Хотим рассказать вам <br>с кем мы сотрудничаем, <br>и кто нам <span class="orange_text3">доверяет</span></p>
+
+                <div class="flex-container block_part">
+
+                    <div class="col-6 col-sm-3 partners_item"><img src="img/ТМ1.png" alt=""></div>
+                    <div class="col-6 col-sm-3 partners_item"><img src="img/ТМ2.png" alt=""></div>
+
+                    <div class="col-6 col-sm-3 partners_item"><img src="img/ТМ3.png" alt=""></div>
+                    <div class="col-6 col-sm-3 partners_item"><img src="img/ТМ4.png" alt=""></div>
+
+                    <div class="col-6 col-sm-3 partners_item"><img src="img/ТМ5.png" class="img_down" alt=""></div>
+                    <div class="col-6 col-sm-3 partners_item_6"><img src="img/ТМ6.png" class="img_down" alt=""></div>
+
+                </div>
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+</div>
+
+<!-- Скрипт для работы маски ввода номера телефона (защита от дурачка, кроме номера ничего вводиться не будет)-->
+<script src="js/jQueryMaskedInput/maskedPNumberScript.js"></script>
+</body>
+</html>
